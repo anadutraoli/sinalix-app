@@ -1,0 +1,85 @@
+.bg-ocean {
+  position: relative;
+  background: linear-gradient(180deg, #acd0ed 20%, #4593a3 55%, #006960 79%, #008d36 86%);
+}
+
+
+
+.index-sandrinha {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 480px;
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.index-sandrinha img {
+  width: 100%;
+  height: auto;
+}
+
+.index-container {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding-bottom: 48vh;
+}
+
+.index-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.eclipse-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.eclipse-wrapper {
+  max-width: 319px;
+  height: auto;
+}
+
+.eclipse-wrapper img {
+  filter: drop-shadow(0 4px 0 4px rgba(0, 0, 0, 0.25));
+}
+
+.eclipse-wrapper h1 {
+  position: absolute;
+  color: #FFFFFF;
+  font-size: 5rem;
+  font-family: "Jokerman", cursive;
+  font-weight: normal;
+  text-align: center;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn-comecar {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+  border: 2px solid #E5E5E5;
+  border-radius: 8px;
+  padding: 14px 58px;
+  color: #E5E5E5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-decoration: none;
+}
