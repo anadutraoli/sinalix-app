@@ -4,30 +4,65 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sinalix | Login</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body class="bg-login">
     <div class="login-container">
       <main class="login-main">
-        <h1>Olá!</h1>
-        <p>Seja Bem-Vindo ao Sinalix</p>
+        <header class="login-header">
+          <h1>Olá!</h1>
+          <p>Seja Bem-Vindo ao Sinalix</p>
+        </header>
         <div class="login-form-container">
           <h2>Login</h2>
-            <form action="./apresentacao.html">
-              <input type="email" name="email" id="userEmail" placeholder="Email">
-              <input type="password" name="senha" id="userSenha" placeholder="Senha">
-              <button>Entrar</button>
-              <p><ins>Esqueci minha senha</ins></p>
-            </form> 
-            <div class="">
+          <form action="./apresentacao.html">
+            <input
+              type="email"
+              name="email"
+              id="userEmail"
+              placeholder="Email"
+              class="input-form"
+            />
+            <input
+              type="password"
+              name="senha"
+              id="userSenha"
+              placeholder="Senha"
+              class="input-form"
+            />
+            <a href="#">Esqueci minha senha</a>
+            <button type="submit" class="button-form">Entrar</button>
+          </form>
+
+          <footer class="login-footer">
+            <div class="login-form-redes-sociais">
               <p>Continue com</p>
-              <div class="redes-sociais">
-                <img src="./assets/tela-login/logo-facebook.png" alt="Logo do Facebook">
-                <img src="./assets/tela-login/logo-google.png" alt="Logo do Google">
-                <img src="./assets/tela-login/logo-apple.png " alt="Logo da Apple">
+              <div class="form-redes-sociais">
+                <a href="#">
+                  <img
+                    src="./assets/tela-login/logo-facebook.png"
+                    alt="Logo do Facebook"
+                  />
+                </a>
+                <a href="">
+                  <img
+                    src="./assets/tela-login/logo-google.png"
+                    alt="Logo do Google"
+                  />
+                </a>
+                <a href="">
+                  <img
+                    src="./assets/tela-login/logo-apple.png "
+                    alt="Logo da Apple"
+                  />
+                </a>
               </div>
             </div>
-            <p>Ainda não tem conta? <strong><a href="./cadastro.html">Clique aqui</a></strong></p>
+            <p>
+              Ainda não tem conta?
+              <strong><a href="./cadastro.html">Clique aqui</a></strong>
+            </p>
+          </footer>
         </div>
       </main>
     </div>
