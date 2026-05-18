@@ -1,0 +1,141 @@
+.bg-login {
+  background-color: #fbdce5;
+  color: #d36c8d;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.login-main {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  flex: 1;
+}
+
+.login-header {
+  margin: 40px 0px 25px 35px;
+}
+
+.login-header h1 {
+  font-family: "Jokerman", cursive;
+  font-weight: normal;
+  font-size: 4rem;
+}
+
+.login-header p {
+  font-size: 1rem;
+}
+
+.login-form-container {
+  background-color: #ebf8ff;
+  border-radius: 50px 50px 0px 0px;
+  padding: 30px 30px 14px 30px;
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.login-form-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 14px;
+  font-weight: 600;
+  text-align: start;
+}
+
+.login-form-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+  width: 100%;
+}
+
+.login-form-container a {
+  font-size: 0.8rem;
+  color: #d36c8d;
+}
+
+.login-footer > p {
+  margin: 20px 0;
+  font-size: 1rem;
+}
+
+.login-form-redes-sociais {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.login-form-redes-sociais p {
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  margin-top: 30px;
+}
+
+.login-form-redes-sociais p::before {
+  content: "";
+  display: inline-block;
+  width: 120%;
+  height: 0.1px;
+  background: #d36c8d;
+  right: 100px;
+  position: absolute;
+}
+
+.login-form-redes-sociais p::after {
+  content: "";
+  display: inline-block;
+  width: 120%;
+  height: 0.1px;
+  background-color: #d36c8d;
+  left: 100px;
+  position: absolute;
+}
+
+.form-redes-sociais {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.form-redes-sociais img {
+  background-color: #e5e5e5;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+@media (max-width: 390px) {
+  .login-header {
+    margin: 20px 0px 25px 25px;
+  }
+
+  .login-header h1 {
+    font-size: 3rem;
+  }
+
+  .login-form-container h2 {
+    font-size: 2rem;
+  }
+
+  .login-form-redes-sociais p::before,
+  .login-form-redes-sociais p::after {
+    width: 90%;
+  }
+
+  .login-footer > p {
+    font-size: 0.8rem;
+  }
+}

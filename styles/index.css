@@ -1,4 +1,4 @@
-.bg-ocean {
+.bg-index {
   position: relative;
   background: linear-gradient(
     180deg,
@@ -6,6 +6,7 @@
     #4593a3 57.87%,
     #006960 89.41%
   );
+  overflow: hidden;
 }
 
 .index-sandrinha {
@@ -88,7 +89,6 @@
 }
 
 @media (max-width: 390px) {
-
   .eclipse-wrapper {
     max-width: 280px;
   }

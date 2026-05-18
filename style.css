@@ -1,27 +1,11 @@
 /* Tela de início */
 @import "./styles/index.css";
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
-@font-face {
-  font-family: "Jokerman";
-  src: url(./assets/fonts/Jokerman.otf) format("opentype");
-}
+/* Global */
+@import "./styles/global.css";
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  /* outline: 1px solid red; */
-}
+/* Tela de início */
+@import "./styles/index.css";
 
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-body {
-  font-family: "Montserrat", sans-serif;
-  min-height: 100vh;
-  overflow: hidden;
-}
+/* Tela de Login */
+@import "./styles/login.css";
